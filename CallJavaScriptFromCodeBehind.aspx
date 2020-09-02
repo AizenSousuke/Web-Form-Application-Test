@@ -17,8 +17,10 @@
     <form id="form1" runat="server">
         <asp:ScriptManager runat="server"></asp:ScriptManager>
         <h1>Test of Loading Javascript from the Code Behind</h1>
-        <telerik:RadAjaxPanel ID="RadAjaxPanel1" runat="server" Height="200px" Width="300px">
+        <telerik:RadAjaxPanel ID="RadAjaxPanel1" runat="server">
             <div>
+                <!-- Change to radlabel only affects the ones in the same ajax panel (from btnCallJS) -->
+                <telerik:RadLabel ID="radLabel" runat="server" Text="No text"></telerik:RadLabel>
                 <telerik:RadButton ID="btnCallJS" runat="server" Text="Call Javascript Function" OnClick="btnCallJS_Click"></telerik:RadButton>
             </div>
         </telerik:RadAjaxPanel>
