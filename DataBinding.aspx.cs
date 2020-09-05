@@ -8,6 +8,7 @@ using System.Web;
 using System.Web.ModelBinding;
 using System.Web.UI;
 using System.Web.UI.WebControls;
+using WebApplicationTest.Classes;
 using WebApplicationTest.Model;
 
 namespace WebApplicationTest
@@ -34,6 +35,9 @@ namespace WebApplicationTest
                     DataBind();
                 }
                 RequestNumber.ReadOnly = false;
+
+                Enums en = new Enums();
+                en.Main();
             }
         }
 
@@ -50,7 +54,8 @@ namespace WebApplicationTest
                 {
                     existing.RequestNumber = request.RequestNumber;
                     existing.RequestTitle = request.RequestTitle;
-                } else
+                }
+                else
                 {
                     newObj = context.SampleDataBindingModels.Add(request);
                 }
