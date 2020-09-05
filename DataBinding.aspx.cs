@@ -15,14 +15,15 @@ namespace WebApplicationTest
     public partial class DataBinding : System.Web.UI.Page
     {
         public SampleDataBindingModel request { get; set; }
+        protected SampleDataBindingModel model { get; set; }
         protected void Page_Load(object sender, EventArgs e)
         {
-            int.TryParse(Page.Request.QueryString["RequestNumber"], out int requestNumber);
+            int.TryParse(Page.Request.QueryString["Id"], out int Idq);
             if (!Page.IsPostBack)
             {
                 // New Page
                 DbContext context = new DbContext();
-                request = context.SampleDataBindingModels.Where(x => x.RequestNumber == requestNumber).FirstOrDefault();
+                request = context.SampleDataBindingModels.Where(x => x.Id == Idq).FirstOrDefault();
                 if (request != null)
                 {
                     Id.Text = request.Id.ToString();
@@ -44,16 +45,17 @@ namespace WebApplicationTest
                 DbContext context = new DbContext();
                 // Find existing if any
                 var existing = context.SampleDataBindingModels.Where(x => x.RequestNumber == request.RequestNumber).FirstOrDefault();
+                SampleDataBindingModel newObj;
                 if (existing != null)
                 {
                     existing.RequestNumber = request.RequestNumber;
                     existing.RequestTitle = request.RequestTitle;
                 } else
                 {
-                    context.SampleDataBindingModels.Add(request);
+                    newObj = context.SampleDataBindingModels.Add(request);
                 }
                 context.SaveChanges();
-                var newObj = context.SampleDataBindingModels.Where(x => x.RequestTitle == request.RequestTitle).FirstOrDefault();
+                newObj = context.SampleDataBindingModels.Where(x => x.RequestNumber == request.RequestNumber).FirstOrDefault();
                 DataText.Text = String.Format("Data: {0}", JsonConvert.SerializeObject(newObj));
                 //Page.Response.Redirect(Page.Request.Url.ToString() + "?RequestNumber=" + newObj.RequestNumber.ToString(), true);
             };

@@ -15,8 +15,9 @@
            <h1>Data Binding Example</h1>
             <telerik:RadAjaxPanel ID="RadAjaxPanel1" runat="server" Height="200px" Width="300px">
                 
-                <telerik:RadLabel ID="lbl" runat="server" Text="<%# request.RequestTitle %>"></telerik:RadLabel>
-                ID: <telerik:RadLabel ID="Id" runat="server"></telerik:RadLabel>
+                ID: <%--<telerik:RadLabel ID="Id" runat="server"></telerik:RadLabel>--%>
+                <br />
+                ID: <telerik:RadTextBox ID="Id" runat="server" Enabled="false"></telerik:RadTextBox>
                 <br />
                 <!-- Note that the ID must be the same as in the model to bind it -->
                 Request Number: <telerik:RadTextBox ID="RequestNumber" runat="server" InputType="Number"></telerik:RadTextBox>
@@ -30,6 +31,7 @@
                 <br />
                 <telerik:RadLabel runat="server" ID="DataText"></telerik:RadLabel>
                 <asp:ValidationSummary ID="ValidationSummary1" runat="server" />
+                Sample from object: <telerik:RadTextBox ID="lbl2" runat="server" Text="<%# request.RequestTitle %>"></telerik:RadTextBox>
             </telerik:RadAjaxPanel>
         </div>
     </form>

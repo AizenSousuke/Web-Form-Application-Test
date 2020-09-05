@@ -3,12 +3,14 @@ using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Web;
+using System.Web.ModelBinding;
 
 namespace WebApplicationTest.Model
 {
     public class SampleDataBindingModel
     {
         [Key]
+        [BindNever]
         public int Id { get; set; }
         [Required]
         [Range(1, 10000, ErrorMessage = "The Request Number must be between 1 and 10000")]
