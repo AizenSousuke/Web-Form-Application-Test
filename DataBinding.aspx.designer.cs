@@ -42,6 +42,15 @@ namespace WebApplicationTest
         protected global::Telerik.Web.UI.RadAjaxPanel RadAjaxPanel1;
 
         /// <summary>
+        /// lbl control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::Telerik.Web.UI.RadLabel lbl;
+
+        /// <summary>
         /// Id control.
         /// </summary>
         /// <remarks>

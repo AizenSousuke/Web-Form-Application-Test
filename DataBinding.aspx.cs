@@ -1,4 +1,5 @@
-﻿using Newtonsoft.Json;
+﻿using Microsoft.Ajax.Utilities;
+using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
@@ -28,6 +29,8 @@ namespace WebApplicationTest
                     RequestNumber.Text = request.RequestNumber.ToString();
                     RequestNumber.ReadOnly = true;
                     RequestTitle.Text = request.RequestTitle;
+                    // To make sure this works --> <%# request.RequestTitle %>
+                    DataBind();
                 }
                 RequestNumber.ReadOnly = false;
             }
@@ -52,7 +55,7 @@ namespace WebApplicationTest
                 context.SaveChanges();
                 var newObj = context.SampleDataBindingModels.Where(x => x.RequestTitle == request.RequestTitle).FirstOrDefault();
                 DataText.Text = String.Format("Data: {0}", JsonConvert.SerializeObject(newObj));
-                Page.Response.Redirect(Page.Request.Url.ToString() + "?RequestNumber=" + newObj.RequestNumber.ToString(), true);
+                //Page.Response.Redirect(Page.Request.Url.ToString() + "?RequestNumber=" + newObj.RequestNumber.ToString(), true);
             };
         }
 

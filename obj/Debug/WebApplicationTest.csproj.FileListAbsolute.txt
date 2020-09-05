@@ -81,3 +81,4 @@ C:\Users\Accelerator\source\repos\WebApplicationTest\WebApplicationTest\obj\Debu
 C:\Users\Accelerator\source\repos\WebApplicationTest\WebApplicationTest\obj\Debug\WebApplicationTest.pdb
 C:\Users\Accelerator\source\repos\WebApplicationTest\WebApplicationTest\obj\Debug\WebApplicationTest.Migrations.InitialUpdate.resources
 C:\Users\Accelerator\source\repos\WebApplicationTest\WebApplicationTest\obj\Debug\WebApplicationTest.csproj.GenerateResource.cache
+C:\Users\Accelerator\source\repos\WebApplicationTest\WebApplicationTest\obj\Debug\WebApplicationTest.csprojAssemblyReference.cache

@@ -14,6 +14,8 @@
         <div>
            <h1>Data Binding Example</h1>
             <telerik:RadAjaxPanel ID="RadAjaxPanel1" runat="server" Height="200px" Width="300px">
+                
+                <telerik:RadLabel ID="lbl" runat="server" Text="<%# request.RequestTitle %>"></telerik:RadLabel>
                 ID: <telerik:RadLabel ID="Id" runat="server"></telerik:RadLabel>
                 <br />
                 <!-- Note that the ID must be the same as in the model to bind it -->
