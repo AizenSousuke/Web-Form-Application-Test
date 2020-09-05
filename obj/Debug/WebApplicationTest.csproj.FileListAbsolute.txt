@@ -53,6 +53,8 @@ C:\Users\Accelerator\source\repos\WebApplicationTest\WebApplicationTest\bin\rosl
 C:\Users\Accelerator\source\repos\WebApplicationTest\WebApplicationTest\bin\Antlr3.Runtime.dll
 C:\Users\Accelerator\source\repos\WebApplicationTest\WebApplicationTest\bin\AspNet.ScriptManager.bootstrap.dll
 C:\Users\Accelerator\source\repos\WebApplicationTest\WebApplicationTest\bin\AspNet.ScriptManager.jQuery.dll
+C:\Users\Accelerator\source\repos\WebApplicationTest\WebApplicationTest\bin\EntityFramework.dll
+C:\Users\Accelerator\source\repos\WebApplicationTest\WebApplicationTest\bin\EntityFramework.SqlServer.dll
 C:\Users\Accelerator\source\repos\WebApplicationTest\WebApplicationTest\bin\Microsoft.AspNet.FriendlyUrls.dll
 C:\Users\Accelerator\source\repos\WebApplicationTest\WebApplicationTest\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
 C:\Users\Accelerator\source\repos\WebApplicationTest\WebApplicationTest\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
@@ -65,14 +67,17 @@ C:\Users\Accelerator\source\repos\WebApplicationTest\WebApplicationTest\bin\Tele
 C:\Users\Accelerator\source\repos\WebApplicationTest\WebApplicationTest\bin\WebGrease.dll
 C:\Users\Accelerator\source\repos\WebApplicationTest\WebApplicationTest\bin\EnvDTE.dll
 C:\Users\Accelerator\source\repos\WebApplicationTest\WebApplicationTest\bin\stdole.dll
+C:\Users\Accelerator\source\repos\WebApplicationTest\WebApplicationTest\bin\EntityFramework.xml
+C:\Users\Accelerator\source\repos\WebApplicationTest\WebApplicationTest\bin\EntityFramework.SqlServer.xml
 C:\Users\Accelerator\source\repos\WebApplicationTest\WebApplicationTest\bin\System.Web.Optimization.xml
 C:\Users\Accelerator\source\repos\WebApplicationTest\WebApplicationTest\bin\Newtonsoft.Json.xml
 C:\Users\Accelerator\source\repos\WebApplicationTest\WebApplicationTest\bin\Antlr3.Runtime.pdb
 C:\Users\Accelerator\source\repos\WebApplicationTest\WebApplicationTest\bin\Microsoft.AspNet.FriendlyUrls.xml
 C:\Users\Accelerator\source\repos\WebApplicationTest\WebApplicationTest\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
-C:\Users\Accelerator\source\repos\WebApplicationTest\WebApplicationTest\obj\Debug\WebApplicationTest.csprojAssemblyReference.cache
 C:\Users\Accelerator\source\repos\WebApplicationTest\WebApplicationTest\obj\Debug\WebApplicationTest.dll.licenses
 C:\Users\Accelerator\source\repos\WebApplicationTest\WebApplicationTest\obj\Debug\WebApplicationTest.csproj.CoreCompileInputs.cache
 C:\Users\Accelerator\source\repos\WebApplicationTest\WebApplicationTest\obj\Debug\WebApplicationTest.csproj.CopyComplete
 C:\Users\Accelerator\source\repos\WebApplicationTest\WebApplicationTest\obj\Debug\WebApplicationTest.dll
 C:\Users\Accelerator\source\repos\WebApplicationTest\WebApplicationTest\obj\Debug\WebApplicationTest.pdb
+C:\Users\Accelerator\source\repos\WebApplicationTest\WebApplicationTest\obj\Debug\WebApplicationTest.Migrations.InitialUpdate.resources
+C:\Users\Accelerator\source\repos\WebApplicationTest\WebApplicationTest\obj\Debug\WebApplicationTest.csproj.GenerateResource.cache

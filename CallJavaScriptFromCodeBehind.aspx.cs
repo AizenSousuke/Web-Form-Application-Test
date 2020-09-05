@@ -18,10 +18,9 @@ namespace WebApplicationTest
         protected void btnCallJS_Click(object sender, EventArgs e)
         {
             // Call javascript function someFunction()
-            ScriptManager.RegisterClientScriptBlock(this.Page, this.GetType(), "MyFun1", String.Format("someFunction('Welcome to year {0}');", DateTime.Today.Year), true);
+            ScriptManager.RegisterClientScriptBlock(this.Page, this.GetType(), "Function", String.Format("someFunction('Welcome to year {0}');", DateTime.Today.Year), true);
             // Change the label text
-            radLabel.Text = DateTime.Now.ToString();
-            
+            radLabel.Text = DateTime.Now.ToString();            
         }
     }
 }
