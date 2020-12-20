@@ -149,6 +149,7 @@
     <Content Include="About.aspx" />
     <Content Include="CallJavaScriptFromCodeBehind.aspx" />
     <Content Include="Components\CustomControl.ascx" />
+    <Content Include="Components\ReactComponent.ascx" />
     <Content Include="Contact.aspx" />
     <Content Include="Content\bootstrap-theme.css" />
     <Content Include="Content\bootstrap-theme.min.css" />
@@ -231,6 +232,12 @@
     </Compile>
     <Compile Include="Components\CustomControl.ascx.designer.cs">
       <DependentUpon>CustomControl.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Components\ReactComponent.ascx.cs">
+      <DependentUpon>ReactComponent.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Components\ReactComponent.ascx.designer.cs">
+      <DependentUpon>ReactComponent.ascx</DependentUpon>
     </Compile>
     <Compile Include="FluentValidator.aspx.cs">
       <DependentUpon>FluentValidator.aspx</DependentUpon>

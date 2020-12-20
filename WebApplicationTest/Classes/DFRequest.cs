@@ -18,12 +18,12 @@ namespace COL.NEA.FAS
         #endregion Common
 
         #region Form Items
-        public ProjectDetails ProjectDetails { get; set; }
-        public RequestingDepartmentDetails RequestingDepartmentDetails { get; set; }
-        public PaperMaster PaperMaster { get; set; }
-        public BudgetDetails BudgetDetails { get; set; }
-        public AssetsToBeWrittenOff AssetsToBeWrittenOff { get; set; }
-        public OtherRelevantInformation OtherRelevantInformation { get; set; }
+        public ProjectDetails ProjectDetails { get; set; } = new ProjectDetails();
+        public RequestingDepartmentDetails RequestingDepartmentDetails { get; set; } = new RequestingDepartmentDetails();
+        public PaperMaster PaperMaster { get; set; } = new PaperMaster();
+        public BudgetDetails BudgetDetails { get; set; } = new BudgetDetails();
+        public AssetsToBeWrittenOff AssetsToBeWrittenOff { get; set; } = new AssetsToBeWrittenOff();
+        public OtherRelevantInformation OtherRelevantInformation { get; set; } = new OtherRelevantInformation();
         public ContactPersonsForQueries ContactPersonsForQueries { get; set; }
         public PreparationForSubmission PreparationForSubmission { get; set; }
         public new FDFinalizationStageDF FDFinalizationStage { get; set; }

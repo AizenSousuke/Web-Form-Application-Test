@@ -7,29 +7,38 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace WebApplicationTest
+namespace WebApplicationTest.Components
 {
 
 
-    public partial class _Default
+    public partial class ReactComponent
     {
 
         /// <summary>
-        /// React control.
+        /// textbox control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::WebApplicationTest.Components.ReactComponent React;
+        protected global::System.Web.UI.WebControls.TextBox textbox;
 
         /// <summary>
-        /// ReactLabel control.
+        /// button control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label ReactLabel;
+        protected global::System.Web.UI.WebControls.Button button;
+
+        /// <summary>
+        /// label control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label label;
     }
 }

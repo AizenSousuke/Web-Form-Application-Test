@@ -43,3 +43,9 @@ C:\Users\Accelerator\source\repos\WebApplicationTest\ConsoleApp\bin\Debug\System
 C:\Users\Accelerator\source\repos\WebApplicationTest\ConsoleApp\bin\Debug\System.Numerics.Vectors.xml
 C:\Users\Accelerator\source\repos\WebApplicationTest\ConsoleApp\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
 C:\Users\Accelerator\source\repos\WebApplicationTest\ConsoleApp\bin\Debug\Antlr3.Runtime.pdb
+C:\Users\Accelerator\source\repos\WebApplicationTest\ConsoleApp\bin\Debug\COL.NEA.Common.dll
+C:\Users\Accelerator\source\repos\WebApplicationTest\ConsoleApp\bin\Debug\FluentValidation.dll
+C:\Users\Accelerator\source\repos\WebApplicationTest\ConsoleApp\bin\Debug\Bogus.dll
+C:\Users\Accelerator\source\repos\WebApplicationTest\ConsoleApp\bin\Debug\AutoBogus.dll
+C:\Users\Accelerator\source\repos\WebApplicationTest\ConsoleApp\bin\Debug\FluentValidation.xml
+C:\Users\Accelerator\source\repos\WebApplicationTest\ConsoleApp\bin\Debug\Bogus.xml

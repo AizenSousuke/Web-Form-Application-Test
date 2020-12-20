@@ -1,6 +1,9 @@
 ﻿<%@ Page Title="Home Page" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Default.aspx.cs" Inherits="WebApplicationTest._Default" %>
 
+
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
+    
+    <%@ Register Src="~/Components/ReactComponent.ascx" TagPrefix="CustomComponent" TagName="ReactComponent" %>
 
     <div class="jumbotron">
         <h1>ASP.NET</h1>
@@ -9,11 +12,11 @@
     </div>
 
     <div class="row">
-        <div class="col-12">
-            <asp:TextBox runat="server" ID="textBox" TextMode="MultiLine" Height="500px" />
+        <div class="col-md-12">
+            <%--<asp:TextBox runat="server" ID="textBox" TextMode="MultiLine" Width="100%" Height="500px" />--%>
+            <CustomComponent:ReactComponent runat="server" ID="React" OnChangeLabel="React_ChangeLabel" />
+            <asp:Label runat="server" ID="ReactLabel" Text="" />
         </div>
-    </div>
-    <div class="row">
         <div class="col-md-4">
             <h2>Getting started</h2>
             <p>
